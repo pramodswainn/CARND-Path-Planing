@@ -11,10 +11,10 @@ class BehaviorPlanner {
 
 	public:
 		int current_lane;
+		double SPEED_MAX_LIMIT = 49.5;//mph
 		double target_vehicle_speed = SPEED_MAX_LIMIT;
 		double previous_ref_vel=0.0;
 		double TIME_INTERVAL = 0.02;//in seconds
-		double SPEED_MAX_LIMIT = 49.5;//mph
 		double mycar_s;
 		double mycar_d;
 		// The size of the previous_path_x vector
